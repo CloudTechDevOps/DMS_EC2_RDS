@@ -21,7 +21,7 @@ resource "aws_dms_endpoint" "source_endpoint" {
   username        = "root"  // substitute with your database username 
   password        = "Admin@123"  // substitute with your database password 
   port            = "3306"
-  server_name     = "ec2-65-0-131-143.ap-south-1.compute.amazonaws.com"  // substitute with your source server name 
+  server_name     = "ec2-13-232-36-249.ap-south-1.compute.amazonaws.com"  // substitute with your source server name 
   depends_on = [ aws_dms_replication_instance.dms_replication_instance ]
 } 
  
