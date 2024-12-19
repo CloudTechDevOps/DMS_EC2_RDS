@@ -1,0 +1,30 @@
+{
+  "rules": [
+    {
+      "rule-type": "selection",
+      "rule-id": "118026958",
+      "rule-name": "118026958",
+      "object-locator": {
+        "schema-name": "vsv",
+        "table-name": "customers"
+      },
+      "rule-action": "include",
+      "filters": [],
+      "parallel-load": null,
+      "isAutoSegmentationChecked": false
+    },
+    {
+      "rule-type": "selection",
+      "rule-id": "118010566",
+      "rule-name": "118010566",
+      "object-locator": {
+        "schema-name": "vsv",
+        "table-name": "users"
+      },
+      "rule-action": "include",
+      "filters": [],
+      "parallel-load": null,
+      "isAutoSegmentationChecked": false
+    }
+  ]
+}
